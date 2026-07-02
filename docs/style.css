@@ -7,13 +7,13 @@ padding: 20px;
 line-height:1,6;
 }
 
-hi{
+h1{
     color: black;
-    font-size: 20px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 p {
-font-size: 10px;
+font-size: 16px;
 max-width: 880px;
 
 }
