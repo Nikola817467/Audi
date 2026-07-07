@@ -20,9 +20,73 @@ div.header {
 
 div.header > h2 {
     margin: 0;
-    color: rgb(8, 238, 235);
+    color: rgb(56, 195, 190);
 }
 
 div.header > p {
     color: white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+main{
+    width:80%;
+    margin:30px auto;
+}
+
+
+
+div.header p{
+    color:gray;
+    font-size:1.2rem;
+    margin-bottom:1rem;
+}
+
+div.card{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
+div.card img{
+    width:250px;
+}
+
+div.content > p{
+    width:50%;
+    color:rgb(47,48,50);
+    padding-top:1rem;
+}
+
+div.bottom-title{
+    margin-top:1.2rem;
+}
+
+div.bottom-title p{
+    display:inline;
+    background-color:rgb(0,18,22);
+    color:white;
+    padding:0.3rem 0.5rem;
+    font-size:1.5rem;
+    padding-bottom:0;
+}
+
+ul.bottom{
+    list-style:none;
+    background-color:rgb(217,235,235);
+    padding:1rem;
+    color:rgb(47,48,50);
+}
+
+span.bold{
+    font-weight:600;
+    color:black;
 }
