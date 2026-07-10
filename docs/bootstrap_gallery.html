@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery-Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/bootstrap_gallery.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">АвтомастерПро</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                            Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-industry"></i> За производителя </a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-user-gear"></i> Потребителски панел
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-plus"></i> Регистрирай
+                                    се</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-right-to-bracket"></i> Влез в
+                                    профил</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-phone-volume"></i> Контакти</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <div class="container mt-4 pt-4 d-flex flex-wrap justify-content-center">
+
+            <div class="card m-2 border border-success" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAssN9oyFFk3jggTFZQ7KdJgVLcGagdwy8ypXO7zVf-g&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-emphasis">Mercedess E220d</h5>
+                    <p class="card-text">Много стилен дизайн бърза аеродинамика</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-gas-pump"></i> ДвигателБензин</li>
+                    <li class="list-group-item"><i class="fa-solid fa-gears"></i> Скоростна кутия: Автоматик</li>
+                    <li class="list-group-item"><i class="fa-regular fa-calendar-days"></i> Година 2025</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Виж Детайли</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+            <div class="card m-2 border border-success" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAssN9oyFFk3jggTFZQ7KdJgVLcGagdwy8ypXO7zVf-g&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-emphasis">Mercedess E220d</h5>
+                    <p class="card-text bg-warning-subtle px-2 py-3">Много <span
+                            class="h4 bg-success px-1 pb-2 border rounded-4">стилен Тук</span> дизайн бърза аеродинамика
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-gas-pump"></i> ДвигателБензин</li>
+                    <li class="list-group-item"><i class="fa-solid fa-gears"></i> Скоростна кутия: Автоматик</li>
+                    <li class="list-group-item"><i class="fa-regular fa-calendar-days"></i> Година 2025</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Виж Детайли</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+            <div class="card m-2 border border-success" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAssN9oyFFk3jggTFZQ7KdJgVLcGagdwy8ypXO7zVf-g&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-emphasis">Mercedess E220d</h5>
+                    <p class="card-text">Много стилен дизайн бърза аеродинамика</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-gas-pump"></i> ДвигателБензин</li>
+                    <li class="list-group-item"><i class="fa-solid fa-gears"></i> Скоростна кутия: Автоматик</li>
+                    <li class="list-group-item"><i class="fa-regular fa-calendar-days"></i> Година 2025</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Виж Детайли</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+            <div class="card m-2 bg-dark text-warning border border-success" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAssN9oyFFk3jggTFZQ7KdJgVLcGagdwy8ypXO7zVf-g&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-emphasis">Mercedess E220d</h5>
+                    <p class="card-text">Много стилен дизайн бърза аеродинамика</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-gas-pump"></i> Двигател Бензин</li>
+                    <li class="list-group-item"><i class="fa-solid fa-gears"></i> Скоростна кутия: Автоматик</li>
+                    <li class="list-group-item"><i class="fa-regular fa-calendar-days"></i> Година 2025</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Виж Детайли</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+            <div class="card m-2 border border-success" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAssN9oyFFk3jggTFZQ7KdJgVLcGagdwy8ypXO7zVf-g&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-emphasis">Mercedess E220d</h5>
+                    <p class="card-text">Много стилен дизайн бърза аеродинамика</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-gas-pump"></i> ДвигателБензин</li>
+                    <li class="list-group-item"><i class="fa-solid fa-gears"></i> Скоростна кутия: Автоматик</li>
+                    <li class="list-group-item"><i class="fa-regular fa-calendar-days"></i> Година 2025</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Виж Детайли</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-4 opacity-78">
+            <div id="carouselExampleIndicators" class="carousel slide w-50 ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://7cars.bg/wp-content/uploads/2024/10/1-6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://di-uploads-pod3.dealerinspire.com/fletcherjonesmbnewport/uploads/2025/01/mercedes-benz-g-class-electric-suv-hub-image-updated-01.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1Glhnr-mgR6j63pYu6RZgRVFwNs3hoIHLQcEaR0Y4UZe1Uq4FQtIid4&s=10"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXt6eX4XDh7HIg0xSZSa65NN3kNvir0lEK3F3_M4aCsSiUCMK2K_78y6E&s=10"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <h2 class="text-start text-warning bg-dark p-3"> Hello</h2>
+        <p class="my-text-box d-block overflow-scroll mb-4 rounded-pill">Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Corrupti architecto, itaque facilis veniam commodi, laboriosam magnam pariatur aliquam
+            quas provident sapiente rerum totam consequuntur cupiditate inventore laudantium neque sequi dicta.</p>
+        <p class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quae cupiditate eos
+            assumenda? Ex doloribus corporis rerum neque inventore quos pariatur possimus ipsum accusamus. Nihil ullam
+            veniam aut optio dolor.</p>
+
+
+
+    </main>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!4v1783664889380!6m8!1m7!1s_GjjTETunijezmyU5y9LPw!2m2!1d43.28034649799412!2d26.91689097837426!3f151.8367363912364!4f3.573441897519615!5f0.7820865974627469"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/LeqKIzeZel4?list=RDEM4DQk9Dp4ZIV7mTV1vgWZeA"
+        title="Crazy Frog - Tricky (Official Video)" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+
+
+
+    <footer class="container mb-3">
+
+        <div class="row">
+            <div class="col bg-primary text-warning text-center py-2">
+                1 of 4
+            </div>
+            <div class="col bg-dark text-white text-center  py-2 fs-3">
+                2 of 4
+            </div>
+            <div class="col bg-success text-white text-center  py-2 fs-3">
+                3 of 4
+            </div>
+            <div class="col-6 bg-primary text-warning text-center  py-2">
+                4 of 4 (wider)
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
